@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { addItem, deleteItem, updateItem } from "../redux/slices/itemSlice";
+import { addItem, deleteItem, updateItem } from "../../redux/slices/itemSlice";
 import { useState } from "react";
 
 export default function Crud() {
